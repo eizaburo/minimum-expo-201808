@@ -9,7 +9,7 @@ const Contact = () => {
 
     const { control, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
-        var base_url = "https://script.google.com/macros/s/AKfycbxN3NPmE0s29jnJmv-wogE8oPxY6fS7NQDH77SpKlsPgo5BBgLQRFKJ8UAyGGkFfmgo/exec";
+        var base_url = "https://script.google.com/macros/s/{deploy_id}/exec";
         // var base_url = API_URL;
 
         setLoading(true);
